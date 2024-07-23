@@ -1,4 +1,4 @@
-package com.example.MovieWatcher.entity;
+package com.MovieWatcher.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

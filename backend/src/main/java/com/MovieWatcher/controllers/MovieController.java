@@ -1,9 +1,9 @@
-package com.example.MovieWatcher.controllers;
+package com.MovieWatcher.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.MovieWatcher.service.MovieService;
+import com.MovieWatcher.service.MovieService;
 
 @RestController
 public class MovieController {

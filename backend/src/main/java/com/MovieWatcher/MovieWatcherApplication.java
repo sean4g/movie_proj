@@ -1,4 +1,4 @@
-package com.example.MovieWatcher;
+package com.MovieWatcher;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

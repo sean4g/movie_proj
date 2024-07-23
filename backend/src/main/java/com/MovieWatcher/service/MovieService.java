@@ -1,4 +1,4 @@
-package com.example.MovieWatcher.service;
+package com.MovieWatcher.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
