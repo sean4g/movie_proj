@@ -8,18 +8,17 @@ import jakarta.persistence.Table;
 
 
 
+
 @Entity
 @Table(name = "movies")
-public class Movie {
+public class Movie extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private String title;
     private String director;
     private int releaseYear;
 
-    // Constructors, getters, setters
     public Movie() {
     }
 
@@ -27,14 +26,6 @@ public class Movie {
         this.title = title;
         this.director = director;
         this.releaseYear = releaseYear;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getTitle() {

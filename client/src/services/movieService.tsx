@@ -1,4 +1,4 @@
-import { Movies } from "../types/movieType";
+import { Movies } from "../../../client/src/types/movieType";
 
 export const getPopularMovies = async (): Promise<Movies> => {
     const response = await fetch('/api/movies/popular');
